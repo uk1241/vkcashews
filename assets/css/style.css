@@ -65,13 +65,13 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: #1e4356;
+  background: #DFF6FF;
 }
 #header.header-transparent {
   background: none;
 }
 #header.header-scrolled {
-  background: rgba(30, 67, 86, 0.8);
+  background: #DFF6FF(30, 67, 86, 0.8);
   height: 60px;
 }
 #header .logo h1 {
@@ -84,7 +84,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   text-transform: uppercase;
 }
 #header .logo h1 a, #header .logo h1 a:hover {
-  color: #fff;
+  color: #111;
   text-decoration: none;
 }
 #header .logo img {
@@ -123,7 +123,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   padding: 10px 0 10px 30px;
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
-  color: #fff;
+  color: #111;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -1839,14 +1839,14 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #0b212d;
+  background: #DFF6FF;
   padding: 0 0 30px 0;
-  color: #fff;
+  color: #111;
   font-size: 14px;
 }
 #footer .footer-newsletter {
   padding: 50px 0;
-  background: #0d2735;
+  background: #DFF6FF;
 }
 #footer .footer-newsletter h4 {
   font-size: 24px;
@@ -1858,7 +1858,7 @@ section {
 }
 #footer .footer-newsletter form {
   margin-top: 30px;
-  background: #fff;
+  background: #111;
   padding: 6px 10px;
   position: relative;
   border-radius: 50px;
@@ -1887,9 +1887,9 @@ section {
   background: #468db3;
 }
 #footer .footer-top {
-  background: #0d2735;
-  border-top: 1px solid #17455e;
-  border-bottom: 1px solid #123649;
+  background: #DFF6FF;
+  border-top: 1px solid #DFF6FF;
+  border-bottom: 1px solid #DFF6FF;
   padding: 60px 0 30px 0;
 }
 #footer .footer-top .footer-info {
@@ -1908,13 +1908,13 @@ section {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Roboto", sans-serif;
-  color: #fff;
+  color: #111;
 }
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #1e4356;
-  color: #fff;
+  background: #DFF6FF;
+  color: #111;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1926,7 +1926,7 @@ section {
 }
 #footer .footer-top .social-links a:hover {
   background: #68A4C4;
-  color: #fff;
+  color: #111;
   text-decoration: none;
 }
 #footer .footer-top h4 {
@@ -1946,7 +1946,7 @@ section {
 }
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #a2cce3;
+  color: #111;
   font-size: 18px;
   line-height: 1;
 }
@@ -1959,7 +1959,7 @@ section {
   padding-top: 0;
 }
 #footer .footer-top .footer-links ul a {
-  color: #fff;
+  color: #111;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
@@ -1976,6 +1976,7 @@ section {
 #footer .copyright {
   text-align: center;
   padding-top: 30px;
+  color: #111;
 }
 #footer .credits {
   padding-top: 10px;
